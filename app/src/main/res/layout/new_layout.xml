@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#6AFFC73B"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mypic"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ariyan Ahmed"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/tvMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01785400869"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
